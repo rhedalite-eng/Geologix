@@ -241,3 +241,172 @@ les faits observés
 les hypothèses humaines
 les suggestions produites par l'IA
 afin de préserver la traçabilité, la transparence et la qualité de l'information.
+
+Codes d'erreur MVP
+Les codes d'erreur permettent à Géologix, aux utilisateurs et aux futurs modules IA d'identifier rapidement les problèmes détectés dans une Observation.
+
+ER-001
+Type d'observation manquant
+Description :
+
+Aucun type d'observation n'a été fourni.
+
+Action :
+
+Sélectionner un type d'observation valide.
+
+ER-002
+Description manquante
+Description :
+
+Le champ Description est vide.
+
+Action :
+
+Ajouter une description significative.
+
+ER-003
+Description insuffisante
+Description :
+
+La description est trop courte ou ne contient pas suffisamment d'information exploitable.
+
+Action :
+
+Ajouter davantage de détails factuels.
+
+ER-004
+Date invalide
+Description :
+
+La date est absente ou ne respecte pas le format attendu.
+
+Action :
+
+Corriger la date de l'observation.
+
+ER-005
+Auteur non identifié
+Description :
+
+Aucun auteur n'est associé à l'observation.
+
+Action :
+
+Associer l'observation à un utilisateur valide.
+
+ER-006
+Statut invalide
+Description :
+
+Le statut ne correspond pas à une valeur reconnue.
+
+Valeurs autorisées :
+
+Brouillon
+Validée
+Archivée
+ER-007
+Coordonnées GPS invalides
+Description :
+
+La latitude ou la longitude est hors des limites autorisées.
+
+Action :
+
+Vérifier les coordonnées saisies.
+
+ER-008
+Média corrompu
+Description :
+
+Le fichier joint est illisible ou incomplet.
+
+Action :
+
+Téléverser une nouvelle version du média.
+
+ER-009
+Format de fichier non supporté
+Description :
+
+Le format du document ou du média n'est pas accepté par Géologix.
+
+Action :
+
+Utiliser un format compatible.
+
+ER-010
+Document incomplet
+Description :
+
+Le document joint semble incomplet ou endommagé.
+
+Action :
+
+Vérifier le fichier source.
+
+ER-011
+Observation dupliquée
+Description :
+
+Une observation identique ou très similaire existe déjà dans le RapportTerrain.
+
+Action :
+
+Valider qu'il ne s'agit pas d'un doublon.
+
+ER-012
+Hypothèse mélangée aux faits
+Description :
+
+L'observation contient principalement une interprétation plutôt qu'un fait observé.
+
+Action :
+
+Séparer les faits observés des hypothèses.
+
+ER-013
+Incohérence détectée par l'IA
+Description :
+
+L'IA a identifié une contradiction entre plusieurs éléments du rapport.
+
+Action :
+
+Réviser les informations concernées.
+
+ER-014
+Données insuffisantes pour l'analyse IA
+Description :
+
+Les informations disponibles ne permettent pas une analyse fiable.
+
+Action :
+
+Ajouter davantage d'observations ou de documentation.
+
+ER-015
+Observation non conforme aux règles de validation
+Description :
+
+Une ou plusieurs règles de validation obligatoires ne sont pas respectées.
+
+Action :
+
+Corriger les erreurs signalées avant l'enregistrement.
+
+Niveaux de gravité
+Information
+Le rapport peut être enregistré.
+
+Code :
+
+INFO
+
+Avertissement
+Le rapport peut être enregistré mais une vérification est recommandée.
+
+Code :
+
+WARN
