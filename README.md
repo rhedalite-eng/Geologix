@@ -37,6 +37,11 @@ Tous droits réservés.
 
 Ce logiciel est propriétaire. Toute reproduction, modification ou distribution est interdite sans autorisation écrite préalable.
 
+Vision de conformité
+Géologix est conçu selon des principes de souveraineté des données.
+
+Les données demeurent sous le contrôle de leur juridiction d'origine et peuvent être déployées dans des environnements distincts selon les exigences réglementaires ou contractuelles.
+
 Auteur
 Rhédalite Labs
 
