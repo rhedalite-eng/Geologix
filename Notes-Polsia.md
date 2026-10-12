@@ -53,4 +53,28 @@ Rien n’est publié sur npm (ce paquet est ). Le bump de version C’est sur qu
 Versions
 Des versions exactes épinglées sont utilisées pour la pile de cadre :
 <ul><li>Next.js 16.2.6, routeur d’applications</li><li>Réaction 19.2.7</li><li>Tailwind CSS 4.3.0, CSS d’abord @theme</li><li>shadcn/ui style new-yorkais</li><li>Sonner 2.0.7</li><li>TypeScript 5.5.4, mode strict</li><li>Biome 2.3.1, peluches et format</li><li>Vitest 3.2.6</li><li>Prisma 6.19.3</li><li>Nœud >=20.18.1</li></ul>Sécurité dans la dépendance transitive patchée par broches les versions qui ne peuvent pas atteindre les broches de framework par elles-mêmes.overridespackage.json
-<br>
+<br> 
+Fichiers à ne pas modifier sans raison
+.polsia/ownership.json
+.polsia/installed.json
+prisma.config.ts
+AGENTS.md
+Zones modifiables
+README.md
+src/app/(custom)/**
+src/lib/brand.ts
+public/**
+Architecture
+Next.js
+React
+TypeScript
+Prisma
+Tailwind
+Shadcn UI
+Sécurité
+CSP
+Security Headers
+Validation Zod
+Validation d'environnement
+À retenir
+Le projet a été généré depuis le template : polsia-next-v2
