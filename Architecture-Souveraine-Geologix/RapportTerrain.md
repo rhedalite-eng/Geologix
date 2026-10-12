@@ -1,12 +1,14 @@
-RapportTerrain
 Définition
-Le RapportTerrain constitue l'unité fondamentale de Géologix.
+Le RapportTerrain constitue l'unité opérationnelle fondamentale du MVP Géologix.
 
-Il regroupe les observations, hypothèses, documents et médias recueillis par le géologue lors d'une mission terrain ou d'une analyse documentaire.
+Il regroupe les informations collectées sur le terrain afin de permettre la génération d'un rapport logistique standardisé destiné aux superviseurs, aux clients et aux archives opérationnelles.
 
-Géologix assiste l'interprétation mais ne remplace jamais le jugement professionnel de l'utilisateur.
+Le RapportTerrain rassemble observations, notes, photographies, coordonnées GPS, mesures, conditions terrain et documents pertinents dans un format unique et exploitable.
 
-Le géologue demeure responsable de ses conclusions.
+Mission
+Transformer des données terrain souvent désorganisées en un document structuré, cohérent et prêt à être utilisé dans un contexte opérationnel.
+
+Le RapportTerrain constitue la source principale d'information analysée par l'intelligence artificielle de Géologix.
 
 Principes fondamentaux
 Principe 1
