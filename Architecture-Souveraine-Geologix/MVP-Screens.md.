@@ -34,3 +34,218 @@ Tabs
 Progress
 Cards
 Buttons
+Écran 2 — Nouvelle observation
+Objectif
+Permettre la création rapide d'une observation terrain.
+
+Champs obligatoires
+Type
+Description
+Date
+Champs optionnels
+GPS
+Médias
+Documents
+Conditions terrain
+Mesures
+Hypothèses
+Fonctions
+Ajouter une photo
+Ajouter un document
+Ajouter un enregistrement audio
+Enregistrer un brouillon
+Soumettre pour validation
+Composants UI
+Select
+Checkbox
+Tooltip
+Input
+Textarea
+Écran 3 — RapportTerrain
+Objectif
+Construire un rapport à partir de plusieurs observations.
+
+Fonctions
+Ajouter une observation
+Retirer une observation
+Visualiser les médias
+Consulter les documents
+Préparer l'analyse IA
+Informations affichées
+Métadonnées du rapport
+Liste des observations
+Médias associés
+État du rapport
+Composants UI
+Accordion
+Separator
+Cards
+Écran 4 — Révision IA
+Objectif
+Comparer les données originales avec l'analyse produite par l'IA.
+
+Fonctions
+Visualiser les données extraites
+Voir les erreurs détectées
+Consulter les suggestions
+Accepter ou rejeter les propositions
+Informations affichées
+Résumé IA
+Alertes
+Erreurs
+Corrélations
+Composants UI
+Dialog
+Popover
+Switch
+Alert
+Écran 5 — Export PDF
+Objectif
+Valider la version finale du rapport avant génération.
+
+Fonctions
+Prévisualisation
+Choix du modèle PDF
+Génération
+Archivage
+Informations affichées
+Résumé final
+Signature du réviseur
+Date d'approbation
+Composants UI
+Dropdown Menu
+Avatar
+Button
+Wireframe — Tableau de bord
++------------------------------------------------------+
+| GeoLogix                                              |
++------------------------------------------------------+
+
+[ Nouveau rapport ]
+
+--------------------------------------------------------
+Rapports actifs
+
+[ Rapport A ]  EN PRÉPARATION   6 observations
+
+[ Rapport B ]  ANALYSE IA       12 observations
+
+[ Rapport C ]  À RÉVISER        8 observations
+--------------------------------------------------------
+
+Rapports archivés
+Observations récentes
+Wireframe — Nouvelle observation
++------------------------------------------------------+
+| Nouvelle observation                                 |
++------------------------------------------------------+
+
+Type d'observation
+[ Select ]
+
+Description
+[...................................................]
+
+Date
+[ 2026-10-12 ]
+
+GPS (optionnel)
+
+[ Ajouter photo ]
+
+[ Ajouter document ]
+
+[ Ajouter audio ]
+
+[ Enregistrer ] [ Valider ]
+Wireframe — RapportTerrain
++------------------------------------------------------+
+| RapportTerrain                                       |
++------------------------------------------------------+
+
+Titre
+
+Statut
+
+--------------------------------------------------------
+
+Observations
+
+[ Observation 1 ]
+
+[ Observation 2 ]
+
+[ Observation 3 ]
+
+--------------------------------------------------------
+
+[ Lancer analyse IA ]
+Wireframe — Révision IA
++------------------------------------------------------+
+| Analyse IA                                           |
++------------------------------------------------------+
+
+Données terrain
+-------------------------
+Observations
+Photos
+Documents
+
+--------------------------------------------------------
+
+Résultats IA
+
+Résumé
+
+Erreurs détectées
+
+Suggestions
+
+--------------------------------------------------------
+
+[ Accepter ] [ Corriger ]
+Wireframe — Export PDF
++------------------------------------------------------+
+| Export PDF                                           |
++------------------------------------------------------+
+
+Aperçu du rapport
+
+--------------------------------------------------------
+
+Modèle PDF
+
+[ Standard ]
+
+[ Client ]
+
+[ Interne ]
+
+--------------------------------------------------------
+
+[ Générer PDF ]
+
+[ Archiver ]
+Priorités de développement
+Phase 1
+Observation
+RapportTerrain
+Validation
+PDF simple
+Phase 2
+OCR
+Transcription
+Extraction IA
+Phase 3
+Corrélations
+Détection d'anomalies
+Suggestions avancées
+Phase 4
+SampleTrack AI
+Safety & Incident AI
+Critère de réussite MVP
+Un utilisateur doit pouvoir passer :
+
+Observation ↓ RapportTerrain ↓ Analyse IA ↓ Révision humaine ↓ PDF
+
+sans quitter Géologix.
