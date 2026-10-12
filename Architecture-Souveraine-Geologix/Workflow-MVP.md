@@ -165,3 +165,154 @@ Vision à long terme
 Le MVP actuel automatise la production des rapports.
 
 Les futures versions de Géologix
+
+États du workflow
+Observation
+Brouillon
+Observation créée mais non validée.
+
+Transition possible :
+
+Brouillon → Validée
+
+Brouillon → Rejetée
+
+Validée
+Observation conforme aux règles de validation.
+
+Transition possible :
+
+Validée → Archivée
+
+Validée → Brouillon (révision)
+
+Rejetée
+Observation ne respectant pas les règles minimales.
+
+Corrections requises avant réintégration.
+
+Archivée
+Observation conservée à des fins de référence.
+
+Aucune modification directe autorisée.
+
+RapportTerrain
+En préparation
+Le rapport est en cours de construction.
+
+Des observations peuvent encore être ajoutées.
+
+Validation
+Vérification automatique des données.
+
+Détection :
+
+erreurs
+doublons
+incohérences
+Analyse IA
+Traitement des données :
+
+extraction
+OCR
+transcription
+enrichissement
+À réviser
+Le rapport attend une validation humaine.
+
+Approuvé
+Le responsable confirme le contenu.
+
+Exporté
+Le rapport a été généré.
+
+Exemple :
+
+PDF
+
+Archivé
+Le rapport devient consultable mais non modifiable.
+
+Entrées et sorties
+Étape 1 - Collecte terrain
+Entrées
+Notes terrain
+Photos
+Audio
+Coordonnées GPS
+Mesures
+Documents
+Sorties
+Informations brutes
+Étape 2 - Création Observation
+Entrées
+Informations brutes
+Sorties
+Observation valide
+Observation rejetée
+Étape 3 - Construction RapportTerrain
+Entrées
+Observations validées
+Sorties
+RapportTerrain
+Étape 4 - Validation
+Entrées
+RapportTerrain
+Sorties
+Rapport valide
+Liste d'erreurs MVP
+Étape 5 - Analyse IA
+Entrées
+Rapport valide
+Observations
+Médias
+Documents
+Sorties
+Données structurées
+Résumés
+Suggestions
+Alertes
+Étape 6 - Révision humaine
+Entrées
+Rapport enrichi
+Sorties
+Rapport approuvé
+Rapport retourné en correction
+Étape 7 - Exportation
+Entrées
+Rapport approuvé
+Sorties
+PDF
+Archive
+Diagramme Mermaid
+flowchart TD
+
+A[Collecte terrain]
+
+A --> B[Création Observation]
+
+B --> C{Validation Observation}
+
+C -->|Valide| D[RapportTerrain]
+
+C -->|Erreur| E[Correction]
+
+E --> B
+
+D --> F[Validation Rapport]
+
+F --> G[Analyse IA]
+
+G --> H[Révision humaine]
+
+H -->|Approuvé| I[Export PDF]
+
+H -->|Correction| D
+
+I --> J[Archivage]
+Principe directeur
+Aucun rapport ne peut être exporté sans validation humaine.
+
+L'IA peut assister le processus.
+
+L'utilisateur demeure responsable de l'approbation finale.
