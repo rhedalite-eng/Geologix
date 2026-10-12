@@ -316,3 +316,33 @@ Aucun rapport ne peut être exporté sans validation humaine.
 L'IA peut assister le processus.
 
 L'utilisateur demeure responsable de l'approbation finale.
+
+Gestion des erreurs
+Les contrôles de validation utilisent les codes d'erreur définis dans Observation.md.
+
+Erreurs bloquantes
+Les erreurs suivantes empêchent la progression du workflow :
+
+ER-001 Type d'observation manquant
+ER-002 Description manquante
+ER-004 Date invalide
+ER-005 Auteur non identifié
+ER-006 Statut invalide
+ER-015 Observation non conforme
+Résultat :
+
+L'observation retourne à l'état Brouillon.
+
+Erreurs mineures
+Les erreurs suivantes autorisent la poursuite du processus mais génèrent un avertissement :
+
+ER-007 Coordonnées GPS invalides
+ER-008 Média corrompu
+ER-009 Format non supporté
+ER-010 Document incomplet
+ER-011 Observation dupliquée
+ER-013 Incohérence détectée
+ER-014 Données insuffisantes
+Résultat :
+
+Création d'un avertissement et demande de vérification humaine.
