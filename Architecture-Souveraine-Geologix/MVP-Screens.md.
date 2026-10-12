@@ -1,0 +1,36 @@
+MVP Screens
+Statut
+Version 1.0
+
+Alignée sur Logistics Report AI.
+
+Objectif
+Définir les écrans nécessaires au fonctionnement du MVP.
+
+Le MVP doit permettre :
+
+créer des observations
+regrouper des observations dans un RapportTerrain
+déclencher une analyse IA
+produire un PDF validé
+Écran 1 — Tableau de bord
+Objectif
+Fournir une vue globale des dossiers en cours.
+
+Fonctions
+Voir les rapports actifs
+Voir les rapports archivés
+Voir les observations récentes
+Créer un nouveau rapport
+Reprendre un rapport existant
+Informations affichées
+Titre du rapport
+Date de création
+Auteur
+Statut
+Nombre d'observations
+Composants UI
+Tabs
+Progress
+Cards
+Buttons
