@@ -1,0 +1,23 @@
+Architecture souveraine Géologix
+Principe fondamental
+Les données demeurent sous le contrôle de leur juridiction d'origine.
+
+Juridictions supportées
+Canada
+États-Unis Est
+États-Unis Ouest
+Union européenne
+Déploiements privés
+Classification
+Niveau A : Public
+Niveau B : Interne
+Niveau C : Confidentiel
+Niveau D : Stratégique
+Contrôles
+Chiffrement AES-256
+TLS 1.3
+MFA
+Journalisation complète
+Contrôle d'accès basé sur les rôles
+Vision
+Géologix vise à permettre des déploiements souverains destinés aux secteurs géologique, minier, énergétique et gouvernemental.
