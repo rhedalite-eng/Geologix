@@ -346,3 +346,56 @@ ER-014 Données insuffisantes
 Résultat :
 
 Création d'un avertissement et demande de vérification humaine.
+
+Critères d'acceptation MVP
+Le MVP Logistics Report AI est considéré fonctionnel lorsque les conditions suivantes sont respectées.
+
+Collecte
+✅ Un utilisateur peut créer une Observation.
+
+✅ Un utilisateur peut ajouter :
+
+texte
+photo
+document
+Validation
+✅ Les champs obligatoires sont vérifiés.
+
+✅ Les erreurs bloquantes empêchent la validation.
+
+✅ Les erreurs sont présentées à l'utilisateur avec leur code.
+
+RapportTerrain
+✅ Plusieurs Observations peuvent être regroupées.
+
+✅ Les pièces jointes sont conservées.
+
+✅ Les informations demeurent traçables.
+
+Analyse IA
+✅ L'IA extrait les données pertinentes.
+
+✅ L'IA ne modifie jamais les données originales.
+
+✅ Les résultats IA sont enregistrés séparément.
+
+Génération
+✅ Le système génère un rapport PDF.
+
+✅ Le rapport contient :
+
+observations
+médias
+informations extraites
+résumé
+Validation humaine
+✅ Aucun rapport n'est exporté sans approbation humaine.
+
+✅ L'utilisateur conserve la décision finale.
+
+Archivage
+✅ Les rapports exportés peuvent être archivés.
+
+✅ L'historique est conservé.
+
+✅ Les modifications demeurent traçables.
