@@ -17,3 +17,24 @@ import { defineConfig } from 'prisma/config';
 export default defineConfig({
   schema: path.join('prisma', 'schema'),
 });
+model Mission {
+  id          String   @id @default(cuid())
+
+  code        String   @unique
+  nom         String
+
+  client      String?
+  projet      String?
+
+  secteur     String
+
+  description String?
+
+  dateDebut   DateTime
+  dateFin     DateTime?
+
+  statut      String   @default("draft")
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
