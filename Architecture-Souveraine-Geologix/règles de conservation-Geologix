@@ -1,0 +1,171 @@
+Règles de Conservation
+Mission
+Permettre à GeoLogix de préserver l'information jusqu'au moment où elle devient un rapport, une décision ou une référence historique.
+
+Les méthodes de travail peuvent varier.
+
+La traçabilité doit demeurer constante.
+
+Principe Fondamental
+GeoLogix doit s'adapter aux rythmes opérationnels de l'organisation.
+
+Le système ne doit pas imposer :
+
+une fréquence unique de rédaction ;
+une fréquence unique de transmission ;
+une fréquence unique de validation.
+Variabilité Opérationnelle
+Les utilisateurs peuvent adopter différents cycles de travail.
+
+Exemples :
+
+Mode Quotidien
+Observation → Rapport → Transmission
+
+Chaque jour.
+
+Mode Hebdomadaire
+Observation quotidienne
+
+↓
+
+Accumulation
+
+↓
+
+Rapport consolidé
+
+↓
+
+Transmission hebdomadaire
+
+Mode Mensuel
+Observations
+
+↓
+
+Rapports intermédiaires
+
+↓
+
+Rapport consolidé mensuel
+
+Conservation des Observations
+Aucune observation ne doit être supprimée automatiquement.
+
+Chaque observation possède :
+
+date de création ;
+auteur ;
+horodatage ;
+historique des modifications.
+États de Conservation
+Brouillon
+Observation enregistrée mais non validée.
+
+Conservation illimitée.
+
+En révision
+Observation en attente d'approbation.
+
+Conservation illimitée.
+
+Validée
+Observation approuvée.
+
+Conservation permanente.
+
+Archivée
+Observation inactive mais accessible.
+
+Conservation permanente.
+
+Conservation des Rapports
+Rapport Brouillon
+Le rapport peut être modifié.
+
+Historique conservé.
+
+Rapport Signé
+Le rapport devient immuable.
+
+Les modifications ultérieures créent une nouvelle version.
+
+Rapport Archivé
+Conservation permanente.
+
+Aucune suppression automatique.
+
+Gestion des Versions
+Chaque modification importante produit :
+
+numéro de version ;
+date ;
+auteur ;
+justification.
+Exemple :
+
+v1.0 v1.1 v1.2
+
+Signatures
+GeoLogix doit supporter :
+
+Signature Unique
+Auteur unique.
+
+Double Signature
+Exemple :
+
+Foreman + Ingénieur
+
+Triple Signature
+Exemple :
+
+Foreman + Ingénieur + Gestionnaire
+
+Conservation des Analyses IA
+Chaque analyse doit conserver :
+
+modèle utilisé ;
+date ;
+paramètres ;
+sources analysées ;
+résultat produit.
+Aucune recommandation IA ne doit être orpheline de ses sources.
+
+Conservation des Contradictions
+Les contradictions détectées ne doivent jamais être supprimées automatiquement.
+
+Elles constituent une partie de la mémoire analytique du projet.
+
+Conservation des KPI
+Les KPI doivent être historisés.
+
+Aucune valeur historique ne doit être écrasée.
+
+Objectifs :
+
+tendances ;
+audits ;
+comparaison temporelle ;
+amélioration continue.
+Vérité Terrain
+Toute validation terrain doit être conservée.
+
+La validation terrain possède toujours priorité sur :
+
+hypothèses ;
+recommandations ;
+analyses IA.
+Mémoire Opérationnelle
+La mémoire opérationnelle est l'ensemble des informations conservées entre la création initiale et l'archivage final.
+
+Elle comprend :
+
+observations ;
+rapports ;
+documents ;
+recommandations ;
+validations ;
+décisions ;
+actions.
