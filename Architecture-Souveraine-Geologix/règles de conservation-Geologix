@@ -168,4 +168,61 @@ documents ;
 recommandations ;
 validations ;
 décisions ;
-actions.
+actions.Politique de Rétention
+Principe Fondamental
+GeoLogix doit permettre à chaque organisation de définir ses propres règles de conservation.
+
+Les exigences légales, réglementaires, contractuelles et opérationnelles peuvent varier.
+
+Le système doit s'adapter à ces exigences sans compromettre la traçabilité.
+
+Durées Configurables
+Les durées de conservation doivent être configurables pour :
+
+observations ;
+rapports ;
+documents joints ;
+analyses IA ;
+journaux d'audit ;
+KPI ;
+événements métier.
+Durée par Défaut
+À défaut d'une politique définie :
+
+conservation permanente recommandée ;
+suppression automatique désactivée.
+Expiration
+Lorsqu'une durée de rétention est atteinte, les données peuvent être :
+
+conservées ;
+archivées ;
+anonymisées ;
+supprimées.
+Selon la politique de l'organisation.
+
+Protection contre la perte
+Aucune suppression automatique ne doit être activée sans :
+
+une politique explicite ;
+une approbation administrative ;
+une traçabilité de l'opération.
+Priorité réglementaire
+Les exigences légales ou réglementaires ont priorité sur toute politique interne.
+
+GeoLogix doit permettre la mise en conformité sans modification du modèle de données.
+
+Journal de rétention
+Toute opération d'archivage, d'anonymisation ou de suppression doit être enregistrée.
+
+Le journal doit inclure :
+
+date ;
+utilisateur ;
+type d'opération ;
+justification ;
+données concernées.
+Principe de préservation
+La suppression constitue l'exception.
+
+La conservation constitue le comportement par défaut.
+
