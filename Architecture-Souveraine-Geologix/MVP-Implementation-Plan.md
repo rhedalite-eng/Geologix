@@ -283,4 +283,180 @@ Classification automatique :
 
 Critère de succès :
 
-Les documents sont 
+Les documents sont automatiquement catégorisés.
+
+Phase 4 - Recommandations
+Objectif
+Valider le principe du second regard.
+
+Corrélations
+Exemples :
+
+Document similaire trouvé
+Observation reliée détectée
+Critère de succès :
+
+Au moins une corrélation peut être générée.
+
+Contradictions
+Exemple :
+
+Observation incompatible avec données historiques
+Critère de succès :
+
+Une contradiction peut être signalée.
+
+Recommandations
+Types MVP :
+
+Second regard recommandé
+Document similaire identifié
+Vérification terrain suggérée
+Critère de succès :
+
+Une recommandation peut être générée et affichée.
+
+Phase 5 - Actions
+Objectif
+Transformer une recommandation en intervention.
+
+Création d'Action
+Exemple :
+
+Vérifier affleurement secteur nord
+Critère de succès :
+
+Une action peut être créée.
+
+Assignation
+Critère de succès :
+
+Une action peut être assignée.
+
+Fermeture
+Critère de succès :
+
+Une action complétée produit un résultat enregistré.
+
+Phase 6 - KPI
+Objectif
+Mesurer la valeur produite.
+
+Taux de Transmission
+Rapports transmis
+÷
+Rapports créés
+Taux de Lecture
+Rapports consultés
+÷
+Rapports transmis
+Taux d'Action
+Actions créées
+÷
+Rapports consultés
+Indice de Second Regard
+Recommandations vérifiées
+÷
+Recommandations générées
+Pertinence IA
+Recommandations utiles
+÷
+Recommandations vérifiées
+Choses Qui Auraient Pu Être Manquées
+Calcul basé sur :
+
+corrélations utiles ;
+anomalies confirmées ;
+contradictions pertinentes ;
+recommandations validées.
+Critère de succès :
+
+Les KPI évoluent automatiquement selon les activités du système.
+
+Hors MVP
+Les éléments suivants sont volontairement exclus du MVP.
+
+Analyse IA Avancée
+analyse multi-projets ;
+analyse prédictive ;
+modèles spécialisés.
+Signatures Multiples
+double signature ;
+triple signature.
+Intégrations Externes
+SharePoint ;
+ERP ;
+SIG ;
+systèmes clients.
+KPI Avancés
+benchmarking ;
+analyses comparatives ;
+analyses régionales.
+Dépendances
+Ordre recommandé :
+
+Projet
+ ↓
+Observation
+ ↓
+Documents
+ ↓
+Rapport
+ ↓
+OCR
+ ↓
+Résumé
+ ↓
+Recommandation
+ ↓
+Action
+ ↓
+KPI
+Critère d'Acceptation Global
+Le MVP est accepté lorsque le scénario suivant fonctionne entièrement :
+
+Création d'un projet
+↓
+Création d'une observation
+↓
+Ajout de documents
+↓
+Création d'un rapport
+↓
+Analyse IA
+↓
+Génération d'une recommandation
+↓
+Création d'une action
+↓
+Complétion de l'action
+↓
+Mise à jour des KPI
+Priorité Absolue
+L'objectif n'est pas de construire immédiatement l'ensemble de la plateforme GeoLogix.
+
+L'objectif est de valider le cycle complet :
+
+Projet
+↓
+Observation
+↓
+Document
+↓
+Rapport
+↓
+Analyse IA
+↓
+Recommandation
+↓
+Action
+↓
+KPI
+Toute fonctionnalité ne contribuant pas directement à cette validation peut être reportée à une phase ultérieure.
+
+Principe Directeur
+Construire ce qui est nécessaire.
+
+Mesurer ce qui apporte de la valeur.
+
+Valider sur le terrain avant d'élargir le système.
